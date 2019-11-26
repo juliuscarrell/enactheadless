@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/Users/mike/Documents/Jules/Headless Commerce/Web Resources/Portal Pages/Basket/basket2.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class = "topline"></div>
+      <div class="row .container-fluid ">
+        <div class = "nav-bar   col-sm-3 col-lg-2">
+        <div id="mySidebar" class="sidebar"> <div class = "heading">API Documentation</div>
+        <div class = "list-container">
+          <ul>
+            <li>
+              <a href="" class="nav-item" onclick="closeNav()"></a>
+            </li>
+            <li >
+              <a class = "basket" href="/Users/mike/Documents/Jules/Headless Commerce/Web Resources/Portal Pages/Basket/basket.html">Basket APIs</a>
+            </li>
+            <li>
+                <a class = "product" href="/Users/mike/Documents/Jules/Headless Commerce/Web Resources/Portal Pages/Product/product.html">Product APIs</a>
+            </li>
+            <li>
+              <a href="/price">Price APIs</a>
+            </li>
+            <li>
+              <a href="/order">Order APIs</a>
+            </li>
+            <li>
+              <a href="/customer">Customer APIs</a>
+            </li>
+            <li>
+              <a href="/inventory">Inventory APIs</a>
+            </li>
+          </ul>
+          </div>
+        </div>
+    </div>
+    <div class = "main-container  col-12  col-sm-9 col-lg-8 ">
+        <div class="mainpage" >
+          <h2>Basket API</h2>
+
+          <p>   When the Baskets Service is used in a Customer-to-Business mode all Baskets are created as implicitly
+                intended for submission as a single Order to be processed in whole. In this context a single Basket Order
+                Details Item is created in the Basket when the Basket is created. All Operations of the Basket Orders
+                Service serve to maintain details stored in that Item.
+
+                Some of the Operations of this service use Data Structures in Requests and Responses that are specific
+                to the Service API. These are described in section Basket Orders API Data Structures of Chapter 15,
+                The Basket Data Structure.
+
+                <h3> Delivery Options </h3> 
+
+                This Operation Lists the available delivery options for a specified delivery address. Each of the delivery
+                options listed indicates what products (including quantity) the delivery options can fulfill.
+            </p>
+      </div>
+    </div>
+    <div class = "method-container  col-sm-0 col-lg-2">
+        <div class = "method-bar ">
+          </div>
+    </div>
+    </div>
+  </body>
+  <script src="/Users/mike/Documents/Jules/Headless Commerce/Web Resources/Portal Pages/Basket/basket.js"></script>
+</html>

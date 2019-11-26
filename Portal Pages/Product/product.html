@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/Users/mike/Documents/Jules/Headless Commerce/Web Resources/Portal Pages/Product/product.css"
+    />
+  </head>
+  <body>
+      <div class="row">
+
+        <div class = "nav-bar">
+        <div id="mySidebar" class="sidebar">
+          <ul>
+            <li>
+              <a href="" class="nav-item" onclick="closeNav()"></a>
+            </li>
+            <li >
+              <a class = "basket" href="/Users/mike/Documents/Jules/Headless Commerce/Web Resources/Portal Pages/Basket/basket.html">Basket APIs</a>
+            </li>
+            <li>
+              <a class = "product" href="/product">Product APIs</a>
+            </li>
+            <li>
+              <a href="/price">Price APIs</a>
+            </li>
+            <li>
+              <a href="/order">Order APIs</a>
+            </li>
+            <li>
+              <a href="/customer">Customer APIs</a>
+            </li>
+            <li>
+              <a href="/inventory">Inventory APIs</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+        <div id="mainpage">
+          <h2>Basket API</h2>
+
+          <p>   When the Baskets Service is used in a Customer-to-Business mode all Baskets are created as implicitly
+                intended for submission as a single Order to be processed in whole. In this context a single Basket Order
+                Details Item is created in the Basket when the Basket is created. All Operations of the Basket Orders
+                Service serve to maintain details stored in that Item.
+
+                Some of the Operations of this service use Data Structures in Requests and Responses that are specific
+                to the Service API. These are described in section Basket Orders API Data Structures of Chapter 15,
+                The Basket Data Structure.
+
+                <h3> Delivery Options </h3> 
+
+                This Operation Lists the available delivery options for a specified delivery address. Each of the delivery
+                options listed indicates what products (including quantity) the delivery options can fulfill.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/Users/mike/Documents/Jules/Headless Commerce/Web Resources/Portal Pages/Product/product.js"></script>
+</html>

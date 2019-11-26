@@ -1,0 +1,248 @@
+
+* {
+    box-sizing: border-box;
+    font-family : "open_sansregular", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 320 ; 
+}
+
+body {
+
+   
+    font-weight: 250 ; 
+     
+     line-height: 22px ;
+    color: 	#626262 ; 
+
+}
+
+h2 {
+
+
+}
+
+ul {
+
+    padding-left : 3px ;
+
+}
+
+.heading {
+
+    position: absolute ;
+    text-align: center ;
+    font-size: larger ;
+    color: black ; 
+    top : 5px ;
+    left: 5% ; 
+    
+
+}
+
+a {
+
+    text-decoration: none;
+    color: 	#626262 ; 
+   
+    
+    
+}
+
+li {
+
+    list-style-type: none;
+    padding: 8px ; 
+    color: black ; 
+
+   
+}
+
+.topline {
+    position:fixed ;
+    width: 100%;
+    border-bottom:1px solid #DCEBF0;
+    box-shadow: #626262 ;
+    left:0px ;
+
+
+}
+
+.row {
+
+    
+    margin-top: 5% ; 
+    height: 1200px;
+    
+
+}
+
+.nav-bar {
+
+    position: absolute;
+    left:0px ;
+    top:0 ;
+    bottom: 0 ;
+    right: 0 ; 
+    margin-top: 5%;
+    max-width: 250px;
+    background-color:#F9F9F9; 
+    
+
+}
+
+.sidebar {
+
+    height : 100% ;
+
+   
+}
+
+.list-container {
+
+    position: absolute ;
+    top: 2% ;
+    left:2% ;
+
+}
+
+.main-container {
+
+    
+    padding-top: 10px ;
+
+
+}
+
+.mainpage {
+
+
+
+
+
+}
+
+.method-container {
+
+    height:100% ;
+    margin-top: 5%;
+    border-left: 1px solid black;
+
+}
+
+
+.method-bar {
+
+    height:100% ;
+
+}
+
+
+.basket {
+
+
+    border-left: 1px solid #626262;
+    padding: 2px;
+    
+   
+
+}
+
+a:hover {
+
+    font-weight: 400 ; 
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .heading {
+        
+         
+
+    }
+
+    .method-bar {
+
+    
+    }
+
+    #mainpage {
+
+    
+
+    }
+
+    .nav-bar {
+
+      
+       
+        
+    
+    }
+
+
+}
+
+@media screen and (max-width: 980px) {
+
+        .heading {
+            
+            font-size: large ; 
+
+        }
+
+        .method-bar {
+
+            display: none ; 
+        }
+
+        #mainpage {
+
+       
+    
+        }
+
+        .nav-bar {
+
+          
+           min-width: 138px;
+            
+        
+        }
+
+
+}
+
+@media screen and (max-width: 730px) {
+
+    .heading {
+        
+        font-size: medium ; 
+
+    }
+
+    #mainpage {
+
+       
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .heading {
+        
+       
+    }
+    .method-bar {
+
+        
+    }
+
+    #mainpage {
+
+       
+
+    }
+
+}
